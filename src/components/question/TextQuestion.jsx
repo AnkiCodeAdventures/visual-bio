@@ -1,16 +1,15 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
 import styles from "./question.module.css";
 import { TextInput } from "@mantine/core";
 
-function TextQuestion({ question }) {
-  const [text, setText] = useState("");
+function TextQuestion({ question, text, setText }) {
   return (
     <div className={styles.textQuestion}>
       <TextInput
+        classNames={{ input: styles.input, label: styles.label }}
         variant="filled"
         size="lg"
-        radius="xl"
+        radius="lg"
         label={question}
         value={text}
         onChange={(event) => {
