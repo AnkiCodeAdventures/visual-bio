@@ -1,5 +1,18 @@
-.question {
+.input {
+  background-color: #5d54a4 !important;
+  color: white !important;
+  border: 2px solid #b8b4d5 !important;
 }
 
-.textQuestion {
+.input:focus {
+  border: 2px solid #ffa039 !important;
+}
+
+.label {
+  color: #f0f0f0;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px !important ;
 }
