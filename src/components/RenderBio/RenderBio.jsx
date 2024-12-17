@@ -20,16 +20,18 @@ function RenderBio({ text0, text1, text2, text3, text4, photo }) {
           </textPath>
         </text>
       </svg>
-      {photoUrl ? (
-        <img
-          src={photoUrl}
-          alt={photo ? photo.name : "No photo"}
-          onError={(e) => {
-            console.error("Image failed to load", e);
-            e.target.style.display = "none";
-          }}
-        />
-      ) : null}
+      <div className={styles.photo}>
+        {photoUrl ? (
+          <img
+            src={photoUrl}
+            alt={photo ? photo.name : "No photo"}
+            onError={(e) => {
+              console.error("Image failed to load", e);
+              e.target.style.display = "none";
+            }}
+          />
+        ) : null}
+      </div>
     </div>
   );
 }
