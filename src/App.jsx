@@ -4,7 +4,7 @@ import MultipleChoiceQuestion from "./components/question/MultipleChoiceQuestion
 import TextQuestion from "./components/question/TextQuestion";
 import RenderBio from "./components/RenderBio/RenderBio";
 import Hero from "./sections/Hero/Hero";
-import { FileInput } from "@mantine/core";
+import UploadPhoto from "./components/uploadPhoto/UploadPhoto";
 
 function App() {
   const questions = [
@@ -22,6 +22,8 @@ function App() {
   const [text3, setText3] = useState("");
   const [text4, setText4] = useState("");
 
+  const [photo, setPhoto] = useState(null);
+
   return (
     <>
       <Hero />
@@ -31,17 +33,14 @@ function App() {
       <TextQuestion question={questions[3]} text={text3} setText={setText3} />
       <TextQuestion question={questions[4]} text={text4} setText={setText4} />
       <MultipleChoiceQuestion options={["react", "vue"]} />
+      <UploadPhoto photo={photo} setPhoto={setPhoto} />
       <RenderBio
         text1={text1}
         text0={text0}
         text2={text2}
         text3={text3}
         text4={text4}
-      />
-      <FileInput
-        accept="image/png,image/jpeg"
-        label="Upload files"
-        placeholder="Upload files"
+        photo={photo}
       />
     </>
   );
