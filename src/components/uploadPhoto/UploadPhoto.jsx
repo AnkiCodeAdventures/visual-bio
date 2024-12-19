@@ -7,11 +7,14 @@ function UploadPhoto({ photo, setPhoto }) {
     <div>
       <FileInput
         accept="image/png,image/jpeg"
-        label="Upload files"
-        placeholder="Upload files"
-        description="Input description"
+        label="Upload your photo"
+        placeholder="Click here to upload photo"
+        description="Upload your display photo"
         value={photo}
         onChange={setPhoto}
+        size="lg"
+        radius="lg"
+        classNames={{ input: styles.input, label: styles.label }}
       />
     </div>
   );
