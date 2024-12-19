@@ -8,7 +8,11 @@ function RenderBio({ text0, text1, text2, text3, text4, text5, photo }) {
   return (
     <div className={styles.bioContainer}>
       <div className={styles.namePhoto}>
-        <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          viewBox="0 0 600 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.name}
+        >
           <path
             id="curve"
             d="M 50 160 Q 300 -20 550 160"

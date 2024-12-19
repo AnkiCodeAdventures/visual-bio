@@ -15,16 +15,23 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 60px;
+  position: relative;
+}
+.name {
+  width: 363px;
 }
 
 .photo {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 59px;
+  left: 21px;
 }
 
 .photo img {
