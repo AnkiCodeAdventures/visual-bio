@@ -1,8 +1,20 @@
 .bioContainer {
   background: linear-gradient(green, blue);
   width: 90vw;
-  height: 600px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.namePhoto {
+  font-family: "DynaPuff", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 60px;
 }
 
 .photo {

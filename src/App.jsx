@@ -8,6 +8,7 @@ import UploadPhoto from "./components/uploadPhoto/UploadPhoto";
 
 function App() {
   const questions = [
+    "What is your name?",
     "Describe yourself in one word...",
     "Name one achievement of yours which you are proud of",
     "What are your core values?",
@@ -21,6 +22,7 @@ function App() {
   const [text2, setText2] = useState("");
   const [text3, setText3] = useState("");
   const [text4, setText4] = useState("");
+  const [text5, setText5] = useState("");
 
   const [photo, setPhoto] = useState(null);
 
@@ -32,6 +34,7 @@ function App() {
       <TextQuestion question={questions[2]} text={text2} setText={setText2} />
       <TextQuestion question={questions[3]} text={text3} setText={setText3} />
       <TextQuestion question={questions[4]} text={text4} setText={setText4} />
+      <TextQuestion question={questions[5]} text={text5} setText={setText5} />
       <MultipleChoiceQuestion options={["react", "vue"]} />
       <UploadPhoto photo={photo} setPhoto={setPhoto} />
       <RenderBio
