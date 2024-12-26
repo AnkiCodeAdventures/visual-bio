@@ -24,7 +24,7 @@ function RenderBio({ text0, text1, text2, text3, text4, text5, photo }) {
               href="#curve"
               startOffset="50%"
               textAnchor="middle"
-              fill="white"
+              fill="black"
             >
               {text0}
             </textPath>
@@ -44,9 +44,12 @@ function RenderBio({ text0, text1, text2, text3, text4, text5, photo }) {
         </div>
       </div>
 
-      <div>{text1}</div>
+      <div className={styles.quote}>{text1}</div>
 
-      <div>{text2}</div>
+      <div className={styles.text2}>
+        <p>{text2}</p>
+        <p>person</p>
+      </div>
       <div>{text3}</div>
       <div>{text4}</div>
       <div>{text5}</div>

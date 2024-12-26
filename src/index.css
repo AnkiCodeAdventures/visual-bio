@@ -4,3 +4,9 @@
 body {
   background-color: darkslateblue !important;
 }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+}

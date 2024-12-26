@@ -3,7 +3,7 @@ import styles from "./question.module.css";
 import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
-function MultipleChoiceQuestion({ options }) {
+function MultipleChoiceQuestion({ options, label }) {
   const [selectOption, setSelectOption] = useState("");
 
   return (
@@ -13,7 +13,7 @@ function MultipleChoiceQuestion({ options }) {
         variant="filled"
         size="lg"
         radius="lg"
-        label="Your favorite library"
+        label={label}
         placeholder="Pick value"
         data={options}
         value={selectOption}

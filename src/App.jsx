@@ -9,12 +9,33 @@ import UploadPhoto from "./components/uploadPhoto/UploadPhoto";
 function App() {
   const questions = [
     "What is your name?",
+    "What is your motto for life?",
+    "What is your most favorite beverage?",
     "Describe yourself in one word...",
-    "Name one achievement of yours which you are proud of",
     "What are your core values?",
     "What is the food for your soul?",
-    "What is your most favorite beverage?",
     "What words do you live by?",
+    "What is your profession?",
+    "What is one achievement you are proud of?",
+    "What are your goals?",
+    "What are your personal goals?",
+    "What one change do you wish to bring about in the world",
+    "Where are you a distruptor for change?",
+    "Write you most favorite word",
+  ];
+
+  const multipleChoice = [
+    {
+      label: "What is your favorite hobby",
+      options: [
+        "reading",
+        "gardening",
+        "playing games",
+        "writing",
+        "cooking",
+        "travelling",
+      ],
+    },
   ];
 
   const [text0, setText0] = useState("");
@@ -35,7 +56,10 @@ function App() {
       <TextQuestion question={questions[3]} text={text3} setText={setText3} />
       <TextQuestion question={questions[4]} text={text4} setText={setText4} />
       <TextQuestion question={questions[5]} text={text5} setText={setText5} />
-      <MultipleChoiceQuestion options={["react", "vue"]} />
+      <MultipleChoiceQuestion
+        options={multipleChoice[0].options}
+        label={multipleChoice[0].label}
+      />
       <UploadPhoto photo={photo} setPhoto={setPhoto} />
       <RenderBio
         text1={text1}
