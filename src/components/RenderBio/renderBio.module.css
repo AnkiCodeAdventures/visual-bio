@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Flavors&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
 
 .bioContainer {
   background: linear-gradient(rgb(237, 249, 237), rgb(225, 225, 232));
@@ -54,12 +54,9 @@
   font-size: 25px;
 }
 
-.text2 {
-  display: flex;
-  flex-direction: column;
-  font-family: "Rock 3D", serif;
+.text {
+  font-family: "Dokdo", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
-  line-height: 1;
+  font-size: 40px;
 }

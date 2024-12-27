@@ -2,7 +2,7 @@
 import styles from "./question.module.css";
 import { TextInput } from "@mantine/core";
 
-function TextQuestion({ question, text, setText }) {
+function Question({ question, text, setText }) {
   return (
     <div className={styles.textQuestion}>
       <TextInput
@@ -20,4 +20,4 @@ function TextQuestion({ question, text, setText }) {
   );
 }
 
-export default TextQuestion;
+export default Question;
