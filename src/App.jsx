@@ -7,123 +7,87 @@ import Question from "./components/question/Question";
 
 function App() {
   const questions = [
-    "What is your name?",
-    "What is your motto for life?",
-    // achievements
-    "What is your biggest leap of faith moment?",
-    "What unexpected turn led to your growth?",
-    "What is one achievement you are proud of?",
+    { question: "What is your name?", key: "name" },
+    { question: "What is your motto for life?", key: "motto" },
+    //achievements
+    { question: "What is your biggest leap of faith moment?", key: "leap" },
+    { question: "What unexpected turn led to your growth?", key: "unexpected" },
+    {
+      question: "What is one achievement you are proud of?",
+      key: "achievement",
+    },
     //support
-    "Who are your main supporters?",
-    "What collaboarations are you most proud of?",
+
+    { question: "Who are your main supporters?", key: "supporter" },
+    {
+      question: "What collaborations are you most proud of?",
+      key: "collaborations",
+    },
+
     // professional
-    "How do you view distruption in your feild?",
-    "What goals are you working towards?",
-    "What has been your biggest contribution in your feild of work?",
-    "How do you do a complex task?",
+    {
+      question: "How do you view distruption in your feild?",
+      key: "distruption",
+    },
+    { question: "What goals are you working towards?", key: "goals" },
+    {
+      question:
+        "What has been your biggest contribution in your feild of work?",
+      key: "contribution",
+    },
+    { question: "How do you do a complex task?", key: "complex" },
     // personal facts
-    "What is your most favorite beverage?",
-    "What is the food for your soul?",
-    "Who's your furry friend?",
-    "Write you most favorite word",
-    "What is your favorite book?",
-    "What is your favorite color?",
-    "Are you a beach or a mountain person?",
+    { question: "What is your most favorite beverage?", key: "beverage" },
+    { question: "What is the food for your soul?", key: "food" },
+    { question: "Who's your furry friend?", key: "furry" },
+    { question: "Write you most favorite word", key: "word" },
+    { question: "What is your favorite book?", key: "book" },
+    { question: "What is your favorite color?", key: "color" },
+    { question: "Are you a beach or a mountain person?", key: "beach" },
     // wisdom
-    "What unique perspective do you bring?",
-    "What one change do you wish to bring about in the world",
-    "What do you think is the secret of life?",
-    "What is success to you?(3 words)",
-    "How do you spark change in others?",
+    { question: "What unique perspective do you bring?", key: "perspective" },
+    {
+      question: "What one change do you wish to bring about in the world",
+      key: "change",
+    },
+    { question: "What do you think is the secret of life?", key: "secret" },
+    { question: "What is success to you?(3 words)", key: "success" },
+    { question: "How do you spark change in others?", key: "spark" },
     // community
-    "How can you make the world more inclusive?",
-    "How do you give back to your community?",
+    {
+      question: "How can you make the world more inclusive?",
+      key: "inclusive",
+    },
+    { question: "How do you give back to your community?", key: "community" },
   ];
 
-  const [text0, setText0] = useState("");
-  const [text1, setText1] = useState("");
-  const [text2, setText2] = useState("");
-  const [text3, setText3] = useState("");
-  const [text4, setText4] = useState("");
-  const [text5, setText5] = useState("");
-  const [text6, setText6] = useState("");
-  const [text7, setText7] = useState("");
-  const [text8, setText8] = useState("");
-  const [text9, setText9] = useState("");
-  const [text10, setText10] = useState("");
-  const [text11, setText11] = useState("");
-  const [text12, setText12] = useState("");
-  const [text13, setText13] = useState("");
-  const [text14, setText14] = useState("");
-  const [text15, setText15] = useState("");
-  const [text16, setText16] = useState("");
-  const [text17, setText17] = useState("");
-  const [text18, setText18] = useState("");
-  const [text19, setText19] = useState("");
-  const [text20, setText20] = useState("");
-  const [text21, setText21] = useState("");
-  const [text22, setText22] = useState("");
-  const [text23, setText23] = useState("");
-  const [text24, setText24] = useState("");
-  const [text25, setText25] = useState("");
-
-  const texts = [
-    text0,
-    text1,
-    text2,
-    text3,
-    text4,
-    text5,
-    text6,
-    text7,
-    text8,
-    text9,
-    text10,
-    text11,
-    text12,
-    text13,
-    text14,
-    text15,
-    text16,
-    text17,
-    text18,
-    text19,
-    text20,
-    text21,
-    text22,
-    text23,
-    text24,
-    text25,
-  ];
-
-  const setTexts = [
-    setText0,
-    setText1,
-    setText2,
-    setText3,
-    setText4,
-    setText5,
-    setText6,
-    setText7,
-    setText8,
-    setText9,
-    setText10,
-    setText11,
-    setText12,
-    setText13,
-    setText14,
-    setText15,
-    setText16,
-    setText17,
-    setText18,
-    setText19,
-    setText20,
-    setText21,
-    setText22,
-    setText23,
-    setText24,
-    setText25,
-  ];
+  const [answers, setAnswers] = useState({
+    name: "",
+    motto: "",
+    leap: "",
+    unexpected: "",
+    achievement: "",
+    supporter: "",
+    collaborations: "",
+    distruption: "",
+    goals: "",
+    contribution: "",
+    complex: "",
+    beverage: "",
+    food: "",
+    furry: "",
+    word: "",
+    book: "",
+    color: "",
+    beach: "",
+    perspective: "",
+    change: "",
+    secret: "",
+    success: "",
+    spark: "",
+    inclusive: "",
+    community: "",
+  });
 
   const [photo, setPhoto] = useState(null);
 
@@ -131,46 +95,23 @@ function App() {
     <>
       <Hero />
       <UploadPhoto photo={photo} setPhoto={setPhoto} />
-      {questions.map((question, index) => {
+      {questions.map((item) => {
         return (
           <Question
-            key={index}
-            question={question}
-            text={texts[index]}
-            setText={setTexts[index]}
+            key={item.key}
+            question={item.question}
+            text={answers[item.key]}
+            setText={(text) => {
+              setAnswers((prev) => {
+                const values = { ...prev };
+                values[item.key] = text;
+                return values;
+              });
+            }}
           />
         );
       })}
-
-      <RenderBio
-        text0={text0}
-        text1={text1}
-        text2={text2}
-        text3={text3}
-        text4={text4}
-        text5={text5}
-        text6={text6}
-        text7={text7}
-        text8={text8}
-        text9={text9}
-        text10={text10}
-        text11={text11}
-        text12={text12}
-        text13={text13}
-        text14={text14}
-        text15={text15}
-        text16={text16}
-        text17={text17}
-        text18={text18}
-        text19={text19}
-        text20={text20}
-        text21={text21}
-        text22={text22}
-        text23={text23}
-        text24={text24}
-        text25={text25}
-        photo={photo}
-      />
+      <RenderBio answers={answers} photo={photo} />
     </>
   );
 }

@@ -1,35 +1,7 @@
 /* eslint-disable react/prop-types */
 import styles from "./renderBio.module.css";
 
-function RenderBio({
-  text0,
-  text1,
-  text2,
-  text3,
-  text4,
-  text5,
-  text6,
-  text7,
-  text8,
-  text9,
-  text10,
-  text11,
-  text12,
-  text13,
-  text14,
-  text15,
-  text16,
-  text17,
-  text18,
-  text19,
-  text20,
-  text21,
-  text22,
-  text23,
-  text24,
-  text25,
-  photo,
-}) {
+function RenderBio({ answers, photo }) {
   const photoUrl =
     photo && photo instanceof File ? URL.createObjectURL(photo) : null;
 
@@ -54,7 +26,7 @@ function RenderBio({
               textAnchor="middle"
               fill="black"
             >
-              {text0}
+              {answers.name}
             </textPath>
           </text>
         </svg>
@@ -72,31 +44,32 @@ function RenderBio({
         </div>
       </div>
 
-      <div className={styles.quote}>{text1}</div>
-      <div className={styles.text}>{text2}</div>
-      <div className={styles.text}>{text3}</div>
-      <div className={styles.text}>{text4}</div>
-      <div className={styles.text}>{text5}</div>
-      <div className={styles.text}>{text6}</div>
-      <div className={styles.text}>{text7}</div>
-      <div className={styles.text}>{text8}</div>
-      <div className={styles.text}>{text9}</div>
-      <div className={styles.text}>{text10}</div>
-      <div className={styles.text}>{text11}</div>
-      <div className={styles.text}>{text12}</div>
-      <div className={styles.text}>{text13}</div>
-      <div className={styles.text}>{text14}</div>
-      <div className={styles.text}>{text15}</div>
-      <div className={styles.text}>{text16}</div>
-      <div className={styles.text}>{text17}</div>
-      <div className={styles.text}>{text18}</div>
-      <div className={styles.text}>{text19}</div>
-      <div className={styles.text}>{text20}</div>
-      <div className={styles.text}>{text21}</div>
-      <div className={styles.text}>{text22}</div>
-      <div className={styles.text}>{text23}</div>
-      <div className={styles.text}>{text24}</div>
-      <div className={styles.text}>{text25}</div>
+      <div className={styles.quote}>{answers.motto}</div>
+      <div className={styles.textContainer}>
+        <div className={styles.text}>{answers.leap}</div>
+        <div className={styles.text}>{answers.unexpected}</div>
+        <div className={styles.text}>{answers.achievement}</div>
+        <div className={styles.text}>{answers.supporter}</div>
+        <div className={styles.text}>{answers.collaborations}</div>
+        <div className={styles.text}>{answers.distruption}</div>
+        <div className={styles.text}>{answers.goals}</div>
+        <div className={styles.text}>{answers.contribution}</div>
+        <div className={styles.text}>{answers.complex}</div>
+        <div className={styles.text}>{answers.beverage}</div>
+        <div className={styles.text}>{answers.food}</div>
+        <div className={styles.text}>{answers.furry}</div>
+        <div className={styles.text}>{answers.word}</div>
+        <div className={styles.text}>{answers.book}</div>
+        <div className={styles.text}>{answers.color}</div>
+        <div className={styles.text}>{answers.beach}</div>
+        <div className={styles.text}>{answers.perspective}</div>
+        <div className={styles.text}>{answers.change}</div>
+        <div className={styles.text}>{answers.secret}</div>
+        <div className={styles.text}>{answers.success}</div>
+        <div className={styles.text}>{answers.spark}</div>
+        <div className={styles.text}>{answers.inclusive}</div>
+        <div className={styles.text}>{answers.community}</div>
+      </div>
     </div>
   );
 }
