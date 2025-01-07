@@ -11,13 +11,11 @@ function App() {
     { question: "What is your motto for life?", key: "motto" },
     //achievements
     { question: "What is your biggest leap of faith moment?", key: "leap" },
-    { question: "What unexpected turn led to your growth?", key: "unexpected" },
     {
       question: "What is one achievement you are proud of?",
       key: "achievement",
     },
     //support
-
     { question: "Who are your main supporters?", key: "supporter" },
     {
       question: "What collaborations are you most proud of?",
@@ -65,7 +63,6 @@ function App() {
     name: "",
     motto: "",
     leap: "",
-    unexpected: "",
     achievement: "",
     supporter: "",
     collaborations: "",
