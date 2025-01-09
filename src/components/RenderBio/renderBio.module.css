@@ -3,14 +3,18 @@
 
 .bioContainer {
   background: linear-gradient(rgb(237, 249, 237), rgb(225, 225, 232));
-  width: 90vw;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem;
+  padding: 0rem 1rem 1rem 1rem;
   min-height: 900px;
   color: black;
+  font-family: "Dokdo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
 }
 
 .namePhoto {
@@ -19,7 +23,7 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-size: 60px;
+  font-size: 50px;
   position: relative;
   min-height: 390px;
 }
@@ -28,16 +32,16 @@
 }
 
 .photo {
-  width: 320px;
-  height: 320px;
+  width: 224px;
+  height: 224px;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 59px;
-  left: 44px;
+  top: 51px;
+  left: 72px;
 }
 
 .photo img {
@@ -51,37 +55,42 @@
   font-family: "Flavors", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
 }
 
-.text {
-  font-family: "Dokdo", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-}
 /* row 1 */
 .firstRow {
   display: flex;
-  font-family: "Dokdo", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .achievements {
-  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 4.2rem;
   flex: 1;
   padding-top: 10rem;
+  position: relative;
 }
 .achievementsText1 {
   transform: rotate(-3deg);
 }
 .achievementsText2 {
+  margin-right: 60px;
   transform: rotate(-5deg);
 }
 
-.achievementsImage {
-  width: 59%;
+.achievementsImage1 {
+  position: absolute;
+  top: 236px;
+  left: 121px;
+  width: 24%;
+}
+.achievementsImage2 {
+  position: absolute;
+  top: 292px;
+  left: 327px;
+  background-color: pink;
+  width: 14%;
+  border-radius: 43px;
 }
 
 .namePhoto {
@@ -91,10 +100,44 @@
 .support {
   flex: 1;
   padding-top: 7rem;
-  font-size: 36px;
 }
 
 .supportImage {
   width: 40%;
-  filter: grayscale(100%);
+}
+
+/* second row */
+
+.secondRow {
+  display: flex;
+}
+
+.professional {
+  flex: 1;
+}
+
+.complexTask {
+  flex: 1;
+}
+
+.personalFacts {
+  flex: 1;
+}
+
+/* third row */
+
+.thirdRow {
+  display: flex;
+}
+
+.wisdom {
+  flex: 1;
+}
+
+.community {
+  flex: 1;
+}
+
+.plant {
+  width: 40%;
 }

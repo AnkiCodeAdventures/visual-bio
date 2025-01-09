@@ -27,7 +27,7 @@ function App() {
       question: "How do you view distruption in your feild?",
       key: "distruption",
     },
-    { question: "What goals are you working towards?", key: "goals" },
+    { question: "What are you currently pursuing?", key: "goals" },
     {
       question:
         "What has been your biggest contribution in your feild of work?",
@@ -36,11 +36,8 @@ function App() {
     { question: "How do you do a complex task?", key: "complex" },
     // personal facts
     { question: "What is your most favorite beverage?", key: "beverage" },
-    { question: "What is the food for your soul?", key: "food" },
     { question: "Who's your furry friend?", key: "furry" },
-    { question: "Write you most favorite word", key: "word" },
     { question: "What is your favorite book?", key: "book" },
-    { question: "What is your favorite color?", key: "color" },
     { question: "Are you a beach or a mountain person?", key: "beach" },
     // wisdom
     { question: "What unique perspective do you bring?", key: "perspective" },
@@ -50,7 +47,6 @@ function App() {
     },
     { question: "What do you think is the secret of life?", key: "secret" },
     { question: "What is success to you?(3 words)", key: "success" },
-    { question: "How do you spark change in others?", key: "spark" },
     // community
     {
       question: "How can you make the world more inclusive?",
@@ -71,17 +67,13 @@ function App() {
     contribution: "",
     complex: "",
     beverage: "",
-    food: "",
     furry: "",
-    word: "",
     book: "",
-    color: "",
     beach: "",
     perspective: "",
     change: "",
     secret: "",
     success: "",
-    spark: "",
     inclusive: "",
     community: "",
   });
