@@ -24,7 +24,7 @@ function RenderBio({ answers, photo }) {
           </div>
           <img
             className={styles.achievementsImage2}
-            src="/src/assets/vecteezy_icons-for-bioscience-and-chemistry-labs_35122439-Photoroom.png"
+            src="/src/assets/achievement.png"
             alt="atom"
           />
         </div>

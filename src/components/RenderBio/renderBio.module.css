@@ -86,11 +86,9 @@
 }
 .achievementsImage2 {
   position: absolute;
-  top: 292px;
+  top: 235px;
   left: 327px;
-  background-color: pink;
-  width: 14%;
-  border-radius: 43px;
+  width: 31%;
 }
 
 .namePhoto {
