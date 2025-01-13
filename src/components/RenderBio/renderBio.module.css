@@ -25,7 +25,6 @@
   font-variation-settings: "wdth" 100;
   font-size: 50px;
   position: relative;
-  min-height: 390px;
 }
 .name {
   width: 363px;
@@ -60,15 +59,16 @@
 /* row 1 */
 .firstRow {
   display: flex;
+  position: relative;
 }
-
+/* column1 */
 .achievements {
   display: flex;
   flex-direction: column;
   gap: 4.2rem;
   flex: 1;
-  padding-top: 10rem;
-  position: relative;
+  padding-top: 6rem;
+  padding-left: 0.5rem;
 }
 .achievementsText1 {
   transform: rotate(-3deg);
@@ -80,28 +80,49 @@
 
 .achievementsImage1 {
   position: absolute;
-  top: 236px;
+  top: 180px;
   left: 121px;
-  width: 24%;
+  width: 8%;
 }
 .achievementsImage2 {
   position: absolute;
-  top: 235px;
-  left: 327px;
-  width: 31%;
+  top: 186px;
+  left: 316px;
+  width: 11%;
 }
-
+/* column2 */
 .namePhoto {
-  flex: 1;
 }
-
+/* column 3 */
 .support {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   flex: 1;
-  padding-top: 7rem;
+  padding-top: 3rem;
+  position: relative;
+  transform: rotate(-25deg);
+  margin-right: 22px;
 }
 
-.supportImage {
-  width: 40%;
+.supportText1 {
+  transform: rotate(2deg);
+}
+
+.supportText2 {
+  transform: rotate(24deg);
+}
+.supportImage1 {
+  width: 16%;
+  position: absolute;
+  top: 9px;
+  left: 995px;
+}
+.supportImage2 {
+  width: 13%;
+  position: absolute;
+  top: 164px;
+  left: 680px;
 }
 
 /* second row */

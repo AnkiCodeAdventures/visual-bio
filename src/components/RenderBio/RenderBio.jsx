@@ -7,7 +7,9 @@ function RenderBio({ answers, photo }) {
 
   return (
     <div className={styles.bioContainer}>
+      {/* row1 */}
       <div className={styles.firstRow}>
+        {/* column1 */}
         <div className={styles.achievements}>
           <div className={styles.achievementsText1}>
             {/* {answers.leap} */}
@@ -29,6 +31,7 @@ function RenderBio({ answers, photo }) {
           />
         </div>
 
+        {/* column2 */}
         <div className={styles.namePhoto}>
           <svg
             viewBox="0 0 600 200"
@@ -67,21 +70,28 @@ function RenderBio({ answers, photo }) {
           </div>
         </div>
 
+        {/* column3 */}
         <div className={styles.support}>
-          <div className={styles.text}>
+          <div className={styles.supportText1}>
             {/* {`${answers.supporter}, my biggest cheerleader`} */}
             my brother, my biggest cheerleader
           </div>
-          <img
-            className={styles.supportImage}
-            src="/src/assets/vecteezy_single-continuous-line-drawing-eight-hands-with-their_53012903-Photoroom.png"
-            alt="airplane"
-          />
-          <div className={styles.text}>
+
+          <div className={styles.supportText2}>
             {/* {`${answers.collaborations}, turning ideas into reality`} */}
             collaborations with friends, turning ideas into reality
           </div>
         </div>
+        <img
+          className={styles.supportImage1}
+          src="/src/assets/color_hands.png"
+          alt=""
+        />
+        <img
+          className={styles.supportImage2}
+          src="/src/assets/friends background.png"
+          alt=""
+        />
       </div>
 
       <div className={styles.quote}>
@@ -151,11 +161,7 @@ function RenderBio({ answers, photo }) {
             {/* {answers.secret} */}
             Life&apos;s a journey
           </div>
-          <img
-            className={styles.plant}
-            src="/src/assets/vecteezy_hand-holding-lotus-water-lily-in-continuous-line-drawing_22274413-Photoroom.png"
-            alt="flower"
-          />
+
           <div className={styles.text}>
             {answers.success}
             fulfilling, enriching, meaningful
