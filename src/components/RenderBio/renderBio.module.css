@@ -3,7 +3,8 @@
 
 .bioContainer {
   background: linear-gradient(rgb(237, 249, 237), rgb(225, 225, 232));
-  width: 1200px;
+  min-width: 1100px;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,6 +17,42 @@
   font-style: normal;
   font-size: 28px;
 }
+
+/* row 1 */
+.firstRow {
+  display: flex;
+  position: relative;
+}
+/* column1 */
+.achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 4.2rem;
+  flex: 1;
+  padding-top: 6rem;
+  padding-left: 0.5rem;
+}
+.achievementsText1 {
+  transform: rotate(-3deg);
+}
+.achievementsText2 {
+  margin-right: 60px;
+  transform: rotate(-5deg);
+}
+
+.achievementsImage1 {
+  position: absolute;
+  top: 180px;
+  left: 121px;
+  width: 8%;
+}
+.achievementsImage2 {
+  position: absolute;
+  top: 188px;
+  left: 257px;
+  width: 13%;
+}
+/* column2 */
 
 .namePhoto {
   font-family: "DynaPuff", serif;
@@ -50,49 +87,6 @@
   border-radius: 50%;
 }
 
-.quote {
-  font-family: "Flavors", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* row 1 */
-.firstRow {
-  display: flex;
-  position: relative;
-}
-/* column1 */
-.achievements {
-  display: flex;
-  flex-direction: column;
-  gap: 4.2rem;
-  flex: 1;
-  padding-top: 6rem;
-  padding-left: 0.5rem;
-}
-.achievementsText1 {
-  transform: rotate(-3deg);
-}
-.achievementsText2 {
-  margin-right: 60px;
-  transform: rotate(-5deg);
-}
-
-.achievementsImage1 {
-  position: absolute;
-  top: 180px;
-  left: 121px;
-  width: 8%;
-}
-.achievementsImage2 {
-  position: absolute;
-  top: 186px;
-  left: 316px;
-  width: 11%;
-}
-/* column2 */
-.namePhoto {
-}
 /* column 3 */
 .support {
   display: flex;
@@ -115,16 +109,29 @@
 .supportImage1 {
   width: 16%;
   position: absolute;
-  top: 9px;
-  left: 995px;
+  top: 15px;
+  left: 911px;
 }
 .supportImage2 {
   width: 13%;
   position: absolute;
-  top: 164px;
-  left: 680px;
+  top: 181px;
+  left: 614px;
 }
 
+/* quote */
+
+.quote {
+  font-family: "Flavors", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 650px;
+  margin: 6px;
+  padding: 10px;
+  border-radius: 34px;
+  background-color: #feced0;
+}
 /* second row */
 
 .secondRow {
@@ -159,4 +166,215 @@
 
 .plant {
   width: 40%;
+}
+
+/* images attached to biocontainer */
+.image3 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 6px;
+}
+.image5 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 200px;
+}
+.image6 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: -102px;
+}
+
+.image7 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 50px;
+}
+
+.image8 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: -28px;
+  background-color: #151413;
+  border-radius: 77px;
+}
+.image9 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: -125px;
+}
+.image10 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 0px;
+}
+.image11 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image12 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image13 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image14 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image15 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image16 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image17 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image18 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image19 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image20 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image21 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image22 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image23 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image24 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image25 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image26 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image27 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image28 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image29 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image30 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image31 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image32 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image33 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image34 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image35 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+
+.image38 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.image39 {
+  width: 12%;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
 }

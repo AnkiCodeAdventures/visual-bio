@@ -96,7 +96,8 @@ function RenderBio({ answers, photo }) {
 
       <div className={styles.quote}>
         {/* {answers.motto} */}
-        be true to yourself
+        &lsquo;This above all: to thine own self be true, And it must follow, as
+        the night the day, Thou canst not then be false to any man. &lsquo;
       </div>
 
       <div className={styles.secondRow}>
@@ -180,6 +181,124 @@ function RenderBio({ answers, photo }) {
           </div>
         </div>
       </div>
+
+      {/* images extra */}
+      <img
+        className={styles.image5}
+        src="/src/assets/2hands_heart.png"
+        alt=""
+      />
+      <img className={styles.image6} src="/src/assets/4 friends.png" alt="" />
+      <img
+        className={styles.image3}
+        src="/src/assets/4friends_sitting.png"
+        alt=""
+      />
+
+      <img
+        className={styles.image7}
+        src="/src/assets/friends dancing.png"
+        alt=""
+      />
+      <img className={styles.image8} src="/src/assets/friends.png" alt="" />
+      <img
+        className={styles.image9}
+        src="/src/assets/friends_heads.png"
+        alt=""
+      />
+      <img
+        className={styles.image10}
+        src="/src/assets/friends_line_color.png"
+        alt=""
+      />
+      <img
+        className={styles.image11}
+        src="/src/assets/friends_professional.png"
+        alt=""
+      />
+      <img
+        className={styles.image12}
+        src="/src/assets/1flowers_color.png"
+        alt=""
+      />
+      <img className={styles.image13} src="/src/assets/atom.png.png" alt="" />
+      <img
+        className={styles.image14}
+        src="/src/assets/bags_book_coming_out.png"
+        alt=""
+      />
+      <img
+        className={styles.image15}
+        src="/src/assets/books_stack.png"
+        alt=""
+      />
+      <img className={styles.image16} src="/src/assets/cup.jpg" alt="" />
+      <img className={styles.image17} src="/src/assets/earth tree.png" alt="" />
+      <img className={styles.image18} src="/src/assets/flowers.png" alt="" />
+      <img className={styles.image19} src="/src/assets/hand_earth.png" alt="" />
+      <img
+        className={styles.image20}
+        src="/src/assets/hand_laptop.png"
+        alt=""
+      />
+      <img className={styles.image21} src="/src/assets/hand_stars.png" alt="" />
+      <img
+        className={styles.image22}
+        src="/src/assets/hand_writing_journal.png"
+        alt=""
+      />
+      <img
+        className={styles.image23}
+        src="/src/assets/heart_leaves.png"
+        alt=""
+      />
+      <img
+        className={styles.image24}
+        src="/src/assets/heart_world.png"
+        alt=""
+      />
+      <img className={styles.image25} src="/src/assets/leaflet.png" alt="" />
+      <img
+        className={styles.image26}
+        src="/src/assets/lightbublb_plant.png"
+        alt=""
+      />
+      <img className={styles.image27} src="/src/assets/lotus hand.png" alt="" />
+      <img className={styles.image28} src="/src/assets/man_arrow.png" alt="" />
+      <img className={styles.image29} src="/src/assets/man_bulb.png" alt="" />
+      <img
+        className={styles.image30}
+        src="/src/assets/multiple_cats.png"
+        alt=""
+      />
+      <img
+        className={styles.image31}
+        src="/src/assets/potted plant.png"
+        alt=""
+      />
+      <img className={styles.image32} src="/src/assets/puzzle.png" alt="" />
+      <img className={styles.image33} src="/src/assets/raccoon.png" alt="" />
+      <img
+        className={styles.image34}
+        src="/src/assets/stars_christmas_decoration.png"
+        alt=""
+      />
+      <img
+        className={styles.image35}
+        src="/src/assets/steps happily climbing.png"
+        alt=""
+      />
+
+      <img
+        className={styles.image38}
+        src="/src/assets/wine_spices.png"
+        alt=""
+      />
+      <img
+        className={styles.image39}
+        src="/src/assets/yellow_bulb.png"
+        alt=""
+      />
     </div>
   );
 }
