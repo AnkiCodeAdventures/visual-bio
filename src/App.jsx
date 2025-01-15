@@ -38,7 +38,6 @@ function App() {
     { question: "What is your most favorite beverage?", key: "beverage" },
     { question: "Who's your furry friend?", key: "furry" },
     { question: "What is your favorite book?", key: "book" },
-    { question: "Are you a beach or a mountain person?", key: "beach" },
     // wisdom
     { question: "What unique perspective do you bring?", key: "perspective" },
     {
@@ -69,7 +68,6 @@ function App() {
     beverage: "",
     furry: "",
     book: "",
-    beach: "",
     perspective: "",
     change: "",
     secret: "",

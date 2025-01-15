@@ -139,11 +139,6 @@ function RenderBio({ answers, photo }) {
             {/* {answers.book} */}
             Wonder by R J Palacio
           </div>
-
-          <div className={styles.text}>
-            {answers.beach}
-            mountain person
-          </div>
         </div>
       </div>
 
@@ -227,11 +222,7 @@ function RenderBio({ answers, photo }) {
         src="/src/assets/bags_book_coming_out.png"
         alt=""
       />
-      <img
-        className={styles.image15}
-        src="/src/assets/books_stack.png"
-        alt=""
-      />
+      <img className={styles.image15} src="/src/assets/book.png" alt="" />
       <img className={styles.image16} src="/src/assets/cup.jpg" alt="" />
       <img className={styles.image17} src="/src/assets/earth tree.png" alt="" />
       <img className={styles.image18} src="/src/assets/flowers.png" alt="" />
@@ -258,11 +249,7 @@ function RenderBio({ answers, photo }) {
         alt=""
       />
       <img className={styles.image25} src="/src/assets/leaflet.png" alt="" />
-      <img
-        className={styles.image26}
-        src="/src/assets/lightbublb_plant.png"
-        alt=""
-      />
+
       <img className={styles.image27} src="/src/assets/lotus hand.png" alt="" />
       <img className={styles.image28} src="/src/assets/man_arrow.png" alt="" />
       <img className={styles.image29} src="/src/assets/man_bulb.png" alt="" />

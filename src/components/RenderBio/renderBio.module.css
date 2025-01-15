@@ -127,7 +127,8 @@
   font-style: normal;
   font-size: 20px;
   width: 650px;
-  margin: 6px;
+  margin-top: 6px;
+  margin-bottom: 36px;
   padding: 10px;
   border-radius: 34px;
   background-color: #feced0;
@@ -136,18 +137,31 @@
 
 .secondRow {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .professional {
-  flex: 1;
+  flex-basis: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-right: 60px;
+  padding-left: 60px;
+  transform: rotate(-10deg);
 }
 
 .complexTask {
-  flex: 1;
+  flex-basis: 31%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .personalFacts {
-  flex: 1;
+  flex-basis: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* third row */
@@ -169,6 +183,59 @@
 }
 
 /* images attached to biocontainer */
+.image23 {
+  width: 6%;
+  position: absolute;
+  top: 2625px;
+  left: 103px;
+}
+
+.image39 {
+  width: 8%;
+  position: absolute;
+  top: 2682px;
+  left: 426px;
+}
+
+.image35 {
+  width: 7%;
+  position: absolute;
+  top: 2644px;
+  left: 628px;
+}
+
+.image22 {
+  width: 8%;
+  position: absolute;
+  top: 2695px;
+  left: 109px;
+}
+.image31 {
+  width: 7.1%;
+  position: absolute;
+  top: 2630px;
+  left: 716px;
+}
+.image38 {
+  width: 4%;
+  position: absolute;
+  top: 2649px;
+  left: 1116px;
+}
+
+.image15 {
+  width: 10%;
+  position: absolute;
+  top: 2706px;
+  left: 1061px;
+}
+.image33 {
+  width: 7%;
+  position: absolute;
+  top: 2595px;
+  left: 901px;
+}
+/* extra images */
 .image3 {
   width: 12%;
   position: absolute;
@@ -239,12 +306,7 @@
   top: 3000px;
   left: 100px;
 }
-.image15 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
+
 .image16 {
   width: 12%;
   position: absolute;
@@ -281,18 +343,7 @@
   top: 3000px;
   left: 100px;
 }
-.image22 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image23 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
+
 .image24 {
   width: 12%;
   position: absolute;
@@ -305,12 +356,7 @@
   top: 3000px;
   left: 100px;
 }
-.image26 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
+
 .image27 {
   width: 12%;
   position: absolute;
@@ -335,44 +381,15 @@
   top: 3000px;
   left: 100px;
 }
-.image31 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
+
 .image32 {
   width: 12%;
   position: absolute;
   top: 3000px;
   left: 100px;
 }
-.image33 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image34 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image35 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
 
-.image38 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image39 {
+.image34 {
   width: 12%;
   position: absolute;
   top: 3000px;
