@@ -48,9 +48,9 @@
 }
 .achievementsImage2 {
   position: absolute;
-  top: 188px;
+  top: 221px;
   left: 257px;
-  width: 13%;
+  width: 10%;
 }
 /* column2 */
 
@@ -112,12 +112,6 @@
   top: 15px;
   left: 911px;
 }
-.supportImage2 {
-  width: 13%;
-  position: absolute;
-  top: 181px;
-  left: 614px;
-}
 
 /* quote */
 
@@ -137,7 +131,7 @@
 
 .secondRow {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .professional {
@@ -145,7 +139,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   padding-right: 60px;
   padding-left: 60px;
   transform: rotate(-10deg);
@@ -176,51 +170,46 @@
 
 .community {
   flex: 1;
+  display: flex;
 }
-
-.plant {
-  width: 40%;
+.communityText1 {
+  padding-top: 107px;
+  transform: rotate(12deg);
 }
 
 /* images attached to biocontainer */
-.image23 {
+
+.image5 {
+  width: 11%;
+  position: absolute;
+  top: 2325px;
+  left: 960px;
+}
+
+.image9 {
+  width: 12%;
+  position: absolute;
+  top: 2858px;
+  left: 673px;
+  transform: rotate(-8deg);
+}
+.image10 {
+  width: 9%;
+  position: absolute;
+  top: 2446px;
+  left: 980px;
+}
+.image12 {
+  width: 5%;
+  position: absolute;
+  top: 2847px;
+  left: 513px;
+}
+.image13 {
   width: 6%;
   position: absolute;
-  top: 2625px;
-  left: 103px;
-}
-
-.image39 {
-  width: 8%;
-  position: absolute;
-  top: 2682px;
-  left: 426px;
-}
-
-.image35 {
-  width: 7%;
-  position: absolute;
-  top: 2644px;
-  left: 628px;
-}
-
-.image22 {
-  width: 8%;
-  position: absolute;
-  top: 2695px;
-  left: 109px;
-}
-.image31 {
-  width: 7.1%;
-  position: absolute;
-  top: 2630px;
-  left: 716px;
-}
-.image38 {
-  width: 4%;
-  position: absolute;
-  top: 2649px;
-  left: 1116px;
+  top: 2216px;
+  left: 248px;
 }
 
 .image15 {
@@ -229,169 +218,69 @@
   top: 2706px;
   left: 1061px;
 }
+.image18 {
+  width: 5%;
+  position: absolute;
+  top: 2944px;
+  left: 926px;
+}
+.image21 {
+  width: 9%;
+  position: absolute;
+  top: 2612px;
+  left: 418px;
+}
+.image23 {
+  width: 6%;
+  position: absolute;
+  top: 2598px;
+  left: 239px;
+}
+.image25 {
+  width: 2%;
+  position: absolute;
+  top: 2521px;
+  left: 334px;
+}
+.image27 {
+  width: 10%;
+  position: absolute;
+  top: 2885px;
+  left: 100px;
+}
+.image31 {
+  width: 7.1%;
+  position: absolute;
+  top: 2630px;
+  left: 716px;
+}
+.image32 {
+  width: 12%;
+  position: absolute;
+  top: 2910px;
+  left: 972px;
+}
 .image33 {
   width: 7%;
   position: absolute;
   top: 2595px;
   left: 901px;
 }
-/* extra images */
-.image3 {
-  width: 12%;
+.image35 {
+  width: 7%;
   position: absolute;
-  top: 3000px;
-  left: 6px;
+  top: 2644px;
+  left: 628px;
 }
-.image5 {
-  width: 12%;
+.image38 {
+  width: 4%;
   position: absolute;
-  top: 3000px;
-  left: 200px;
+  top: 2649px;
+  left: 1116px;
 }
-.image6 {
-  width: 12%;
+.image39 {
+  width: 5%;
   position: absolute;
-  top: 3000px;
-  left: -102px;
-}
-
-.image7 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 50px;
-}
-
-.image8 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: -28px;
-  background-color: #151413;
-  border-radius: 77px;
-}
-.image9 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: -125px;
-}
-.image10 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 0px;
-}
-.image11 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image12 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image13 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image14 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-
-.image16 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image17 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image18 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image19 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image20 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image21 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-
-.image24 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image25 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-
-.image27 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image28 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image29 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-.image30 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-
-.image32 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
-}
-
-.image34 {
-  width: 12%;
-  position: absolute;
-  top: 3000px;
-  left: 100px;
+  top: 2755px;
+  left: 285px;
 }

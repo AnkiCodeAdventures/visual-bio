@@ -87,11 +87,6 @@ function RenderBio({ answers, photo }) {
           src="/src/assets/color_hands.png"
           alt=""
         />
-        <img
-          className={styles.supportImage2}
-          src="/src/assets/friends background.png"
-          alt=""
-        />
       </div>
 
       <div className={styles.quote}>
@@ -103,15 +98,15 @@ function RenderBio({ answers, photo }) {
       <div className={styles.secondRow}>
         {/* professional */}
         <div className={styles.professional}>
-          <div className={styles.text}>
+          <div>
             women as tech leaders
             {/* {answers.distruption} */}
           </div>
-          <div className={styles.text}>
+          <div>
             frontend development
             {/* {answers.goals} */}
           </div>
-          <div className={styles.text}>
+          <div>
             {/* {answers.contribution} */}
             deep work practice
           </div>
@@ -119,7 +114,7 @@ function RenderBio({ answers, photo }) {
 
         {/* complex task */}
         <div className={styles.complexTask}>
-          <div className={styles.text}>
+          <div>
             {/* {answers.complex} */}
             breaking it into smaller tasks, focusing on one thing
           </div>
@@ -127,15 +122,15 @@ function RenderBio({ answers, photo }) {
 
         {/* personal facts */}
         <div className={styles.personalFacts}>
-          <div className={styles.text}>
+          <div>
             {answers.furry}
             my pug Titu
           </div>
-          <div className={styles.text}>
+          <div>
             {/* {answers.beverage} */}
             coffee
           </div>
-          <div className={styles.text}>
+          <div>
             {/* {answers.book} */}
             Wonder by R J Palacio
           </div>
@@ -145,20 +140,20 @@ function RenderBio({ answers, photo }) {
       <div className={styles.thirdRow}>
         {/* wisdom */}
         <div className={styles.wisdom}>
-          <div className={styles.text}>
+          <div>
             {/* {answers.perspective} */}
             growth mindset
           </div>
-          <div className={styles.text}>
+          <div>
             {/* {answers.change} */}
             more kindness towards each other
           </div>
-          <div className={styles.text}>
+          <div>
             {/* {answers.secret} */}
             Life&apos;s a journey
           </div>
 
-          <div className={styles.text}>
+          <div>
             {answers.success}
             fulfilling, enriching, meaningful
           </div>
@@ -166,11 +161,11 @@ function RenderBio({ answers, photo }) {
 
         {/* community */}
         <div className={styles.community}>
-          <div className={styles.text}>
+          <div className={styles.communityText1}>
             {/* {answers.inclusive} */}
             Being kind to one another
           </div>
-          <div className={styles.text}>
+          <div>
             {answers.community}
             sharing of knowledge and resources
           </div>
@@ -183,19 +178,7 @@ function RenderBio({ answers, photo }) {
         src="/src/assets/2hands_heart.png"
         alt=""
       />
-      <img className={styles.image6} src="/src/assets/4 friends.png" alt="" />
-      <img
-        className={styles.image3}
-        src="/src/assets/4friends_sitting.png"
-        alt=""
-      />
 
-      <img
-        className={styles.image7}
-        src="/src/assets/friends dancing.png"
-        alt=""
-      />
-      <img className={styles.image8} src="/src/assets/friends.png" alt="" />
       <img
         className={styles.image9}
         src="/src/assets/friends_heads.png"
@@ -206,58 +189,29 @@ function RenderBio({ answers, photo }) {
         src="/src/assets/friends_line_color.png"
         alt=""
       />
-      <img
-        className={styles.image11}
-        src="/src/assets/friends_professional.png"
-        alt=""
-      />
+
       <img
         className={styles.image12}
         src="/src/assets/1flowers_color.png"
         alt=""
       />
       <img className={styles.image13} src="/src/assets/atom.png.png" alt="" />
-      <img
-        className={styles.image14}
-        src="/src/assets/bags_book_coming_out.png"
-        alt=""
-      />
+
       <img className={styles.image15} src="/src/assets/book.png" alt="" />
-      <img className={styles.image16} src="/src/assets/cup.jpg" alt="" />
-      <img className={styles.image17} src="/src/assets/earth tree.png" alt="" />
       <img className={styles.image18} src="/src/assets/flowers.png" alt="" />
-      <img className={styles.image19} src="/src/assets/hand_earth.png" alt="" />
-      <img
-        className={styles.image20}
-        src="/src/assets/hand_laptop.png"
-        alt=""
-      />
+
       <img className={styles.image21} src="/src/assets/hand_stars.png" alt="" />
-      <img
-        className={styles.image22}
-        src="/src/assets/hand_writing_journal.png"
-        alt=""
-      />
+
       <img
         className={styles.image23}
         src="/src/assets/heart_leaves.png"
         alt=""
       />
-      <img
-        className={styles.image24}
-        src="/src/assets/heart_world.png"
-        alt=""
-      />
+
       <img className={styles.image25} src="/src/assets/leaflet.png" alt="" />
 
       <img className={styles.image27} src="/src/assets/lotus hand.png" alt="" />
-      <img className={styles.image28} src="/src/assets/man_arrow.png" alt="" />
-      <img className={styles.image29} src="/src/assets/man_bulb.png" alt="" />
-      <img
-        className={styles.image30}
-        src="/src/assets/multiple_cats.png"
-        alt=""
-      />
+
       <img
         className={styles.image31}
         src="/src/assets/potted plant.png"
@@ -265,11 +219,7 @@ function RenderBio({ answers, photo }) {
       />
       <img className={styles.image32} src="/src/assets/puzzle.png" alt="" />
       <img className={styles.image33} src="/src/assets/raccoon.png" alt="" />
-      <img
-        className={styles.image34}
-        src="/src/assets/stars_christmas_decoration.png"
-        alt=""
-      />
+
       <img
         className={styles.image35}
         src="/src/assets/steps happily climbing.png"
