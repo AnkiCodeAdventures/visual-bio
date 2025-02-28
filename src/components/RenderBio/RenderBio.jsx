@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Button } from "@mantine/core";
 import styles from "./renderBio.module.css";
 import html2canvas from "html2canvas";
 
@@ -10,9 +11,13 @@ function RenderBio({ answers, photo }) {
     const div = document.getElementById("capture-div");
     if (div) {
       document.fonts.ready.then(() => {
-        html2canvas(div, { scale: window.devicePixelRatio }).then((canvas) => {
+        html2canvas(div, {
+          scale: Math.min(2, window.devicePixelRatio), // Keeps quality high but prevents extreme scaling
+          useCORS: true, // Ensures images load correctly
+          allowTaint: true,
+        }).then((canvas) => {
           const link = document.createElement("a");
-          link.href = canvas.toDataURL("image/png");
+          link.href = canvas.toDataURL("image/png", 1.0); // Maximum quality
           link.download = "div-image.png";
           link.click();
         });
@@ -261,7 +266,9 @@ function RenderBio({ answers, photo }) {
           alt=""
         />
       </div>
-      <button onClick={handleDownloadImage}>Download as Image</button>
+      <Button size="lg" className={styles.button} onClick={handleDownloadImage}>
+        Download as Image
+      </Button>
     </>
   );
 }

@@ -1,18 +1,18 @@
 .input {
-  background-color: #5d54a4 !important;
-  color: white !important;
-  border: 2px solid #b8b4d5 !important;
+  background-color: #ffffff !important;
+  color: #424242 !important;
+  border: 1px solid #9fa8da !important;
 }
 
 .input:focus {
-  border: 2px solid #ffa039 !important;
+  border-color: #303f9f !important;
 }
 
 .label {
-  color: #f0f0f0;
+  color: #424242;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 35px !important ;
 }

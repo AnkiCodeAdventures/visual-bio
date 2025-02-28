@@ -9,7 +9,6 @@ function UploadPhoto({ photo, setPhoto }) {
         accept="image/png,image/jpeg"
         label="Upload your photo"
         placeholder="Click here to upload photo"
-        description="Upload your display photo"
         value={photo}
         onChange={setPhoto}
         size="lg"

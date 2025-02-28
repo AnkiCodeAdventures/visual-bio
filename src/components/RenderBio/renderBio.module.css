@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
 
 .bioContainer {
-  background: linear-gradient(rgb(237, 249, 237), rgb(225, 225, 232));
+  background: white;
   min-width: 1100px;
   max-width: 1100px;
   display: flex;
@@ -10,8 +10,8 @@
   justify-content: flex-start;
   align-items: center;
   padding: 0rem 1rem 1rem 1rem;
+  margin: 1.5rem 0;
   min-height: 875px;
-
   color: black;
   font-family: "Dokdo", serif;
   font-weight: 400;
@@ -284,4 +284,7 @@
   position: absolute;
   top: 2755px;
   left: 285px;
+}
+.button {
+  background-color: #303f9f !important;
 }
